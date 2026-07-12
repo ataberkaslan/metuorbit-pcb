@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 1.1,
+          "height": 2.0,
+          "width": 1.905
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -107,7 +107,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -653,6 +653,24 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Product",
+          "name": "Product",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -703,7 +721,7 @@
         "uuid": "89873f72-2816-48af-bb90-599d5d614f6e"
       }
     ],
-    "used_designators": "U1,BZ1,R1-6,#FLG1-6,J1-4,IC1-6,IC8,C1-4,#PWR1-34,D1,Q1-2",
+    "used_designators": "U1,BZ1,R1-8,#FLG1-6,J1-4,IC1-6,IC8,C1-4,#PWR1-38,D1-3,Q1-2",
     "variants": []
   },
   "sheets": [

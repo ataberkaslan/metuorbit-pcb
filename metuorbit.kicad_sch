@@ -1827,6 +1827,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -4989,20 +5190,60 @@
 		(uuid "13fc4c95-ac0b-497a-aeca-b520f85dbfaa")
 	)
 	(no_connect
+		(at 184.15 109.22)
+		(uuid "17c96f44-0dde-4428-89d7-6c65cfa6cb69")
+	)
+	(no_connect
+		(at 184.15 127)
+		(uuid "19c44a1d-ed7a-4f0e-8e9b-a2418f8b7ad5")
+	)
+	(no_connect
 		(at 209.55 129.54)
 		(uuid "1f748004-08e8-4ca7-b245-fd643720f1b4")
+	)
+	(no_connect
+		(at 184.15 124.46)
+		(uuid "2271c303-8aba-4a08-93ea-58ba7e3e7875")
+	)
+	(no_connect
+		(at 184.15 99.06)
+		(uuid "231ba8c6-d648-411f-96c3-c5613f70d153")
+	)
+	(no_connect
+		(at 184.15 93.98)
+		(uuid "2756d284-a57f-4161-ac36-c3df64f907d6")
+	)
+	(no_connect
+		(at 184.15 91.44)
+		(uuid "40345266-bd2b-49a4-9e31-1f95d4cea4e1")
 	)
 	(no_connect
 		(at 203.2 50.8)
 		(uuid "5543d1ee-fa68-48a8-9583-fd0a99719406")
 	)
 	(no_connect
+		(at 184.15 111.76)
+		(uuid "5d70af6b-454f-458b-a8f9-6c4802aaba71")
+	)
+	(no_connect
 		(at 96.52 139.7)
 		(uuid "647d20dc-e1fa-4156-8125-9f3534777bac")
 	)
 	(no_connect
+		(at 194.31 147.32)
+		(uuid "72fd6467-62e3-4a52-9fa4-76a52f943d2a")
+	)
+	(no_connect
+		(at 184.15 129.54)
+		(uuid "7778956c-f4fe-4cc8-95ce-0c0b8beb9da6")
+	)
+	(no_connect
 		(at 203.2 55.88)
 		(uuid "8203450a-bdcf-4af4-8955-8f3de9362f2f")
+	)
+	(no_connect
+		(at 199.39 147.32)
+		(uuid "93e6d02b-8df3-4714-933f-7954d8248281")
 	)
 	(no_connect
 		(at 209.55 134.62)
@@ -5021,12 +5262,24 @@
 		(uuid "ced3abba-d485-46fc-8f96-076d3fc1e917")
 	)
 	(no_connect
+		(at 184.15 96.52)
+		(uuid "d445cc0f-1c00-44e8-941b-10adb16b9936")
+	)
+	(no_connect
+		(at 184.15 114.3)
+		(uuid "d4897813-85b4-4a2f-bfc5-4f1df2c11d11")
+	)
+	(no_connect
 		(at 209.55 101.6)
 		(uuid "d5887dea-60c4-4573-b7d1-3f628a7dce99")
 	)
 	(no_connect
 		(at 203.2 48.26)
 		(uuid "d6dbf37c-bb7e-4c3a-b5ce-01d5e3a95c1a")
+	)
+	(no_connect
+		(at 209.55 137.16)
+		(uuid "ec97bbbe-c256-45f5-a687-00b3ea5ba7df")
 	)
 	(no_connect
 		(at 209.55 139.7)
@@ -5118,7 +5371,17 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 137.16) (xy 213.36 137.16)
+			(xy 107.95 30.48) (xy 107.95 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19fe26b5-6f3d-4de3-a87d-960222970b5d")
+	)
+	(wire
+		(pts
+			(xy 184.15 132.08) (xy 180.34 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5368,6 +5631,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 34.29) (xy 64.77 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c8b573c-b0bf-4b99-9b00-d87673df37f0")
+	)
+	(wire
+		(pts
 			(xy 209.55 114.3) (xy 213.36 114.3)
 		)
 		(stroke
@@ -5518,6 +5791,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 39.37) (xy 107.95 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b7be4ab-fa4c-424d-abae-2aa2a9b6dba8")
+	)
+	(wire
+		(pts
 			(xy 68.58 105.41) (xy 72.39 105.41)
 		)
 		(stroke
@@ -5615,6 +5898,16 @@
 			(type default)
 		)
 		(uuid "89c41168-f1b7-4c3d-bac6-b67efc49a692")
+	)
+	(wire
+		(pts
+			(xy 64.77 43.18) (xy 64.77 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd90809-2890-4f8d-b99b-0b8fbb7ddc9c")
 	)
 	(wire
 		(pts
@@ -5815,6 +6108,16 @@
 			(type default)
 		)
 		(uuid "af97511a-6268-4edd-9a01-77569a53e3fd")
+	)
+	(wire
+		(pts
+			(xy 64.77 52.07) (xy 64.77 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b04c4682-56ee-41e4-8ee8-72cc5c888191")
 	)
 	(wire
 		(pts
@@ -6188,6 +6491,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 48.26) (xy 107.95 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb00006c-72f7-49fc-b618-39f49dd9722a")
+	)
+	(wire
+		(pts
 			(xy 99.06 67.31) (xy 96.52 67.31)
 		)
 		(stroke
@@ -6507,12 +6820,12 @@
 		(uuid "d19b436b-1180-4e55-a4dc-a1ecba46f94a")
 	)
 	(label "BUZZ"
-		(at 213.36 137.16 0)
+		(at 180.34 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d1f2d00d-5cb1-4efb-839d-ee5acca10dab")
 	)
@@ -6793,6 +7106,17 @@
 				)
 			)
 		)
+		(property "Product" ""
+			(at 232.41 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "d859f190-a660-48a1-b25b-2ede96910e2d")
 		)
@@ -6877,6 +7201,17 @@
 				)
 			)
 		)
+		(property "Product" ""
+			(at 76.2 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e9fd8d29-9984-459a-9caa-25436aab8633")
 		)
@@ -6887,6 +7222,97 @@
 			(project "metuorbit"
 				(path "/89873f72-2816-48af-bb90-599d5d614f6e"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 107.95 44.45 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "10959c8f-d070-4e46-8210-de2360f5c67b")
+		(property "Reference" "R7"
+			(at 110.744 45.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 110.744 42.926 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 106.934 44.704 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 107.95 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" ""
+			(at 107.95 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f596b7d8-145a-4b3f-a7a5-6e6e2f792f6a")
+		)
+		(pin "2"
+			(uuid "b56b0643-de36-4423-838c-65b08e2d935a")
+		)
+		(instances
+			(project "metuorbit"
+				(path "/89873f72-2816-48af-bb90-599d5d614f6e"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7035,6 +7461,17 @@
 				)
 			)
 		)
+		(property "Product" ""
+			(at 220.98 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f91ead0f-35ee-4391-b1a3-5ba2ce9b98c6")
 		)
@@ -7138,6 +7575,17 @@
 				)
 			)
 		)
+		(property "Product" ""
+			(at 127 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "abd01fc4-5fe0-4599-b4a6-bb72664a3780")
 		)
@@ -7210,6 +7658,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 142.24 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" ""
 			(at 142.24 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7381,6 +7840,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 95.25 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" ""
 			(at 95.25 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7629,6 +8099,17 @@
 				)
 			)
 		)
+		(property "Product" ""
+			(at 129.54 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e34de92c-34aa-4507-aa02-9b3f0ac14f94")
 		)
@@ -7639,6 +8120,97 @@
 			(project "metuorbit"
 				(path "/89873f72-2816-48af-bb90-599d5d614f6e"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 64.77 48.26 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b948853-505f-4e65-8622-31821c1d3c71")
+		(property "Reference" "R8"
+			(at 67.564 49.276 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 67.564 46.736 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 63.754 48.514 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 64.77 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" ""
+			(at 64.77 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0b2bac9-c6a4-47ae-b9a3-a13c69b36710")
+		)
+		(pin "2"
+			(uuid "629d4d03-a106-4109-930a-34144c4af789")
+		)
+		(instances
+			(project "metuorbit"
+				(path "/89873f72-2816-48af-bb90-599d5d614f6e"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7778,6 +8350,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 226.06 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" ""
 			(at 226.06 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8129,6 +8712,17 @@
 				)
 			)
 		)
+		(property "Product" ""
+			(at 148.59 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a78922ea-9734-481d-a318-4f424f54c29b")
 		)
@@ -8220,6 +8814,186 @@
 			(project "metuorbit"
 				(path "/89873f72-2816-48af-bb90-599d5d614f6e"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 107.95 35.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d3bd918-c1cb-405f-b78b-839a8d18e6a7")
+		(property "Reference" "D2"
+			(at 103.378 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 103.378 36.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 107.95 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 107.95 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 107.95 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" "https://www.lcsc.com/product-detail/C30584801.html?s_z=n_q_t_led&spm=wm.fly.bg.2.xh___wm.ssy.tc.0.tz&lcsc_vid=FQNbAVUDE1FXUwcCElVdXgFRFFkIBVVTFlkNVlVQRQcxVlNeRFlXV1ZUT1BeVzsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+			(at 107.95 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0ecc4c19-77c7-4f20-8c30-292399687581")
+		)
+		(pin "1"
+			(uuid "1dce479a-486a-4bcf-b421-9fe365f25369")
+		)
+		(instances
+			(project "metuorbit"
+				(path "/89873f72-2816-48af-bb90-599d5d614f6e"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 107.95 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "53168fd0-6109-4cbf-acc6-9321d7ebd413")
+		(property "Reference" "#PWR035"
+			(at 107.95 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 110.744 28.448 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 107.95 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e5117ae-60fe-430d-931d-ff2fe081778d")
+		)
+		(instances
+			(project "metuorbit"
+				(path "/89873f72-2816-48af-bb90-599d5d614f6e"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -8843,6 +9617,17 @@
 				)
 			)
 		)
+		(property "Product" ""
+			(at 105.41 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9335f402-0053-4265-a2d8-280cf78eaef1")
 		)
@@ -8853,6 +9638,85 @@
 			(project "metuorbit"
 				(path "/89873f72-2816-48af-bb90-599d5d614f6e"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f333667-9d4d-4802-95fe-146ae4362fad")
+		(property "Reference" "#PWR036"
+			(at 107.95 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd8ef6bf-f855-4e73-b52b-32145f8356e1")
+		)
+		(instances
+			(project "metuorbit"
+				(path "/89873f72-2816-48af-bb90-599d5d614f6e"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -9172,6 +10036,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 64.77 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d86261f-ad52-4777-bf5f-29645eb34659")
+		(property "Reference" "#PWR038"
+			(at 64.77 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1dbbc2b3-2b2f-4cf1-b902-bf91987b9763")
+		)
+		(instances
+			(project "metuorbit"
+				(path "/89873f72-2816-48af-bb90-599d5d614f6e"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 102.87 81.28 0)
 		(unit 1)
@@ -9314,6 +10257,17 @@
 				)
 			)
 		)
+		(property "Product" ""
+			(at 78.74 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5f22f5b2-0902-4880-983a-c11b9ee0be48")
 		)
@@ -9399,6 +10353,17 @@
 				)
 			)
 		)
+		(property "Product" ""
+			(at 129.54 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f9e86e07-ec82-46cf-8d04-215a5c0a48a7")
 		)
@@ -9470,6 +10435,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 144.78 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" ""
 			(at 144.78 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -9654,6 +10630,17 @@
 				)
 			)
 		)
+		(property "Product" ""
+			(at 95.25 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "803d85de-2ed5-4839-b3c9-b6adaf493668")
 		)
@@ -9727,6 +10714,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 68.58 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" ""
 			(at 68.58 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9964,6 +10962,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 148.59 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" ""
+			(at 148.59 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10322,6 +11331,17 @@
 				)
 			)
 		)
+		(property "Product" ""
+			(at 196.85 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "PB10"
 			(uuid "64a75cb8-9840-476b-b662-b1d0ce471bb1")
 		)
@@ -10452,6 +11472,109 @@
 			(project "metuorbit"
 				(path "/89873f72-2816-48af-bb90-599d5d614f6e"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 64.77 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b9ccdbc9-9c61-4ba7-a77b-6973708a9aae")
+		(property "Reference" "D3"
+			(at 60.198 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 60.198 40.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 64.77 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 64.77 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 64.77 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" "https://www.lcsc.com/product-detail/C28310439.html?s_z=n_q_t_led&spm=wm.fly.bg.0.xh___wm.ssy.tc.0.tz&lcsc_vid=FQNbAVUDE1FXUwcCElVdXgFRFFkIBVVTFlkNVlVQRQcxVlNeRFlXV1ZUT1BeVzsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+			(at 64.77 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "42ea414a-ba66-4115-920d-67fca2ff9657")
+		)
+		(pin "1"
+			(uuid "ecb480c3-62dc-4fc9-99a7-9a4e48739922")
+		)
+		(instances
+			(project "metuorbit"
+				(path "/89873f72-2816-48af-bb90-599d5d614f6e"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -10838,6 +11961,17 @@
 				)
 			)
 		)
+		(property "Product" ""
+			(at 140.97 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "819a509b-0d3d-4818-9cb2-3285bc2f28cb")
 		)
@@ -10908,6 +12042,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 87.63 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" ""
 			(at 87.63 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10996,6 +12141,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 194.31 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" ""
 			(at 194.31 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11110,6 +12266,17 @@
 				)
 			)
 		)
+		(property "Product" ""
+			(at 142.24 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b86935b3-3ee1-4a30-9ad8-1e90511c4871")
 		)
@@ -11182,6 +12349,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 87.63 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" ""
 			(at 87.63 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -11370,6 +12548,17 @@
 				)
 			)
 		)
+		(property "Product" ""
+			(at 86.36 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0d883179-488d-435a-8da6-4260f3000df2")
 		)
@@ -11467,6 +12656,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 64.77 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4a5a0a9-c254-4ad4-aa34-5b99b654b0b6")
+		(property "Reference" "#PWR037"
+			(at 64.77 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 67.818 33.528 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 64.77 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4755afe-6f44-479b-886a-1e0aa5ea73cb")
+		)
+		(instances
+			(project "metuorbit"
+				(path "/89873f72-2816-48af-bb90-599d5d614f6e"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 93.98 43.18 0)
 		(mirror y)
@@ -11523,6 +12789,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 93.98 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" ""
 			(at 93.98 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11603,6 +12880,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 224.79 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" ""
 			(at 224.79 58.42 0)
 			(hide yes)
 			(show_name no)
